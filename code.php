@@ -1,4 +1,6 @@
 <?php
+# M.Abooali [www.abooali.ir || www.codebox.ir]
+# 9:06 AM Sunday, August 7, 2016
 function GetBrowserAgentName($user_agent)
 {
     if (strpos($user_agent, 'Opera') || strpos($user_agent, 'OPR/')) return 'Opera';
